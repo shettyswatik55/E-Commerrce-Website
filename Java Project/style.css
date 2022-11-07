@@ -1,0 +1,332 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo
+{
+    height: 100%;
+    width: 100%;
+    
+}
+header{
+    width: 96%;
+    height: 110px;
+    margin: 0 auto;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+header .cx
+{
+    width: 85%;
+    float: left;
+}
+header .head,
+header .search
+{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    
+    justify-content: left;
+    
+}
+header .head ul li
+{
+    list-style: none;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+header .head ul li a
+{
+    text-decoration: none;
+    
+
+}
+header .head ul:nth-child(1)
+{
+    width: 55%;
+}
+header .search input
+{
+    width: 70%;
+    height: 40px;
+    padding: 10px;
+    color: #757575;
+    border: 1px solid #e5e5e5;
+    outline: none;
+}
+header .search a
+{
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    text-decoration: none;
+    color:purple;
+    background: #ffa500;
+}
+nav
+{
+    width: 96%;
+    height: 50px;
+    margin: 0px auto;
+    background: #ffa500;
+}
+nav ul li
+{
+    list-style: none;
+    float: left;
+    padding: 5px;
+    margin: 5px 30px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    text-align: center;
+    color: purple;
+}
+nav ul li a>i
+{
+    margin-right: 10px;
+}
+main
+{
+    width: 96%;
+    height: auto;
+    margin: 0px auto;
+}
+main .banner-card
+{
+    position: relative;
+}
+main .banner-text
+{
+    position: absolute;
+    top: 25%;
+    color: purple;
+    padding: 20px;
+    
+}
+main .banner-text h1
+{
+    letter-spacing: 10px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: purple;
+}
+main .banner-card div button
+{
+    border: none;
+    outline: none;
+    background: orangered;
+    color: purple;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    padding: 10px;
+    width: 100px;
+}
+main .banner-card img
+{
+    width: 1650px;
+    height: 750px;
+}
+.item3
+{
+    width: 96%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.item3 .inner-3
+{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.item3 .inner-3 div
+{
+    padding-top: 20px;
+
+}
+.item3 .inner-3 div button
+{
+    border: none;
+    outline: none;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.item3 .inner-3 img
+{
+    width: 50%;
+}
+.lg
+{
+    width: 96%;
+    height: 550px;
+
+}
+.lg h1
+{
+    width: 100%;
+    background: orange;
+    color: purple;
+    margin-bottom: 50px;
+}
+.large
+{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.large .inner-large
+{
+    width: 20%;
+}
+.large .inner-large
+{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50px;
+}
+.large .inner-large .inner-left
+{
+    display: flex;
+    justify-content: space-around;
+}
+.large .inner-large .inner-left button
+{
+    width: 35%;
+    height: 35px;
+    align-self: center;
+    border: none;
+    outline: none;
+    background: orangered;
+    color: purple;
+    font-weight: bold;
+
+}
+
+.cl
+{
+    width: 96%;
+    height: 550px;
+
+}
+.cl h1
+{
+    width: 100%;
+    background: orange;
+    color: purple;
+    margin-bottom: 50px;
+}
+.seller
+{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.seller .inner-seller
+{
+    width: 20%;
+}
+.seller .inner-seller
+{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50px;
+}
+.seller .inner-seller .inner-left
+{
+    display: flex;
+    justify-content: space-around;
+}
+.seller .inner-seller .inner-left button
+{
+    width: 35%;
+    height: 35px;
+    align-self: center;
+    border: none;
+    outline: none;
+    background: orangered;
+    color: purple;
+    font-weight: bold;
+
+}
+
+
+footer
+{
+    width: 96%;
+    height: 400px;
+    margin: 20px auto;
+    padding-top: 20px;
+    border-top: 2px solid #e5e5e5;
+    display: flex;
+    justify-content: space-around;
+}
+footer div p
+{
+    margin: 30px auto;
+
+}
+footer div.input
+{
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #e5e5e5;
+
+}
+footer div button
+{
+    border: none;
+    outline: none;
+    background: orangered;
+    color: purple;
+    font-weight: bold;
+    margin-left: -4px;
+    padding: 8px;
+}
+footer div i{
+    padding: 10px 11.5px;
+    border-radius: 50%;
+    margin: 0px 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid purple;
+
+}
+footer div ul li
+{
+     list-style: none;
+     margin: 10px auto;
+}
+footer ul li a
+{
+    text-decoration: none;
+    color: purple;
+}
+.head{
+    background-color:#FF763F;
+    font-size: 20px;
+    color: purple !important ;
+    background-size: auto;
+}
+.nav1{
+  font-size: 20px;  
+}
+#navFooter.navLeftFooter .navFooterLogoLine, #navFooter.navLeftFooter .navFooterPadItemLine {
+    text-align: center;
+    max-width: 1000px;
+    margin: 30px auto 15px;
+}

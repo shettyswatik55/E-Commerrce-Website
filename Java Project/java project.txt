@@ -1,0 +1,76 @@
+<section class="large">
+            <h1>Best Deals Of Today</h1>
+            <div class="inner-large">
+                <img src="khadi.png" alt="">
+                <div>
+                    <h1>Baby Khadi Clothing</h1>
+                    <h1>Up to 15% OFF</h1>
+                    <h1>Rs 550</h1>
+                </div>
+            </div>
+            <div class="inner-large">
+                <img src="Tope.png" alt="">
+                <div>
+                    <h1>Stainless Steel Hammred Patila</h1>
+                    <h1>Up To 20% OFF</h1>
+                    <h1>Rs 799</h1>
+                </div>
+            </div>
+            <div class="inner-large">
+                <img src="Roasted Flax Seed spices.png" alt="">
+                <div>
+                    <h1>Roasted Flax Seed Spice</h1>
+                    <h1>Up To 25% OFF</h1>
+                    <h1>Rs 199</h1>
+                </div>
+            </div>
+        </section>
+
+.large
+{
+    width: 96%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+
+.large .inner-large
+{
+    width: 32%;
+    margin: 0px 5px;
+
+}
+
+.large .inner-large img
+{
+    width: 100%;
+}
+.large .inner-large div
+{
+    text-align: center;
+}
+.large .inner-large div h1{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+header .logo
+{
+    width: 15%;
+    float: left;
+    text-align: center;
+}
+header .logo h1
+{
+    color: purple;
+}
+header .logo h1 span
+{
+    color: red;
+}
